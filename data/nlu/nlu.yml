@@ -55,3 +55,20 @@ nlu:
     - 去[北京](city_to)
     - 从[华盛顿]出发(city_from)
     - 从[北京]走(city_from)
+- intent: ask_rap_A
+  examples: |
+    - 你会说rap吗？
+    - rap
+    - 你好,Rap Botbay
+    - Rap Botbay
+- intent: ask_rap_B
+  examples: |
+    - 我失恋了，咋办？
+    - 失恋
+- intent: ask_rap_C
+  examples: |
+    - 你好
+    - 你男朋友是谁？
+    - 你谈恋爱了吗？
+
+    

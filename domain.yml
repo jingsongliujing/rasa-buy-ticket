@@ -19,10 +19,20 @@ intents:
     use_entities: true
 - inform:
     use_entities: true
+- ask_rap_1:
+    use_entities: true
+- ask_rap_2:
+    use_entities: true
+- ask_rap_3:
+    use_entities: true
+
 entities:
 - city
 - city_from
 - city_to
+- action_rap_A
+- action_rap_B
+- action_rap_C
 slots:
   city_from:
     type: rasa.shared.core.slots.TextSlot
@@ -36,11 +46,11 @@ slots:
     influence_conversation: true
 responses:
   utter_greet:
-  - text: 你好呀
+  - text: 东边日出西边雨，你爷我是大美女。
   utter_goodbye:
   - text: 再见啦
   utter_iamabot:
-  - text: 我是一个演示机器人
+  - text: 我是你的宝贝,Rap Botbay
   utter_ask_city_form_city_from:
   - text: 请告诉我从哪个城市出发？
   utter_ask_city_form_city_to:
@@ -53,6 +63,14 @@ responses:
   - text: 好的我去买票了
   utter_cancel_to_buy:
   - text: 我不买了，爱咋咋
+  action_rap_A:
+  - text: 好看的皮囊千篇一律，有趣的肚腩弹来弹去。
+  action_rap_B:
+  - text: 靓仔千千万，不行咱就换。
+  action_rap_C:
+  - text: 横看成岭侧成峰，帅哥都是我老公。我是一个憨憨，天天不吃早餐，爱情与你无关，整天郁郁寡欢。
+
+
 actions: []
 forms:
   city_form:

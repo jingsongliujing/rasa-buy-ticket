@@ -24,3 +24,12 @@ stories:
   - intent: deny
   - action: utter_cancel_to_buy
   - action: action_restart
+- story: rap
+  steps:
+  - action: action_rap_A
+  - intent: ask_rap_A
+  - action: action_rap_B
+  - intent: ask_rap_B
+  - action: action_rap_C
+  - intent: ask_rap_C
+  
